@@ -1,1 +1,7 @@
-<p>todo-list works!</p>
+<app-add-todo (addTodo)="addTodo($event)"></app-add-todo>
+<app-todo-item
+  *ngFor="let todo of todoList"
+  [todo]="todo"
+  (deleteTodo)="deleteTodo($event)"
+>
+</app-todo-item>

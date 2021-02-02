@@ -1,0 +1,10 @@
+div {
+  width: 95vw;
+  margin: auto;
+  text-align: center;
+}
+
+h1,
+p {
+  margin-top: 1em;
+}
